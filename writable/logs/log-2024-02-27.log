@@ -85,3 +85,773 @@ ERROR - 2024-02-27 01:22:32 --> Table 'dbtk.log' doesn't exist
 ERROR - 2024-02-27 01:27:15 --> Table 'dbtk.log' doesn't exist
 ERROR - 2024-02-27 01:32:40 --> Table 'dbtk.log' doesn't exist
 ERROR - 2024-02-27 01:32:45 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-27 19:59:31 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2024-02-27 19:59:31 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(48): App\Models\M_model->getWhere2('user', Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 20:11:58 --> Unknown column 'petugas.user' in 'on clause'
+CRITICAL - 2024-02-27 20:11:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(123): App\Models\M_model->join2('petugas', 'user', 'petugas.user=us...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 20:15:38 --> Unknown column 'petugas.user' in 'on clause'
+CRITICAL - 2024-02-27 20:15:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(123): App\Models\M_model->join2('petugas', 'user', 'petugas.user=us...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 20:21:19 --> Unknown column 'id_petugas' in 'where clause'
+CRITICAL - 2024-02-27 20:21:19 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(142): App\Models\M_model->getWhere('user', Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-27 20:22:05 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php on line 141
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(141): view('header', NULL)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-27 20:22:06 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php on line 141
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(141): view('header', NULL)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-27 20:22:09 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php on line 141
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(141): view('header', NULL)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-27 20:24:30 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Views\petugas.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('petugas', Array, true)
+#4 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(127): view('petugas', Array)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-02-27 20:26:31 --> Table 'kasir.orangtua' doesn't exist
+CRITICAL - 2024-02-27 20:26:31 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(282): App\Models\M_model->join2('orangtua', 'user', 'orangtua.user=u...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->orangtua()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-27 20:41:02 --> Cannot redeclare App\Controllers\Home::aksi_tambah_orangtua()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-02-27 20:41:44 --> Cannot redeclare App\Controllers\Home::aksi_tambah_orangtua()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-02-27 20:41:45 --> Cannot redeclare App\Controllers\Home::aksi_tambah_orangtua()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-02-27 20:42:32 --> Cannot redeclare App\Controllers\Home::aksi_tambah_orangtua()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-02-27 20:42:32 --> Cannot redeclare App\Controllers\Home::aksi_tambah_orangtua()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-02-27 20:42:33 --> Cannot redeclare App\Controllers\Home::aksi_tambah_orangtua()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-02-27 20:42:34 --> Cannot redeclare App\Controllers\Home::aksi_tambah_orangtua()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-02-27 20:42:40 --> Cannot redeclare App\Controllers\Home::aksi_tambah_orangtua()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-02-27 20:42:41 --> Cannot redeclare App\Controllers\Home::aksi_tambah_orangtua()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-02-27 20:43:19 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:43:37 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:43:37 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:43:47 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:43:53 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:43:59 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:43:59 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:44:29 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:48:39 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:48:39 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:49:08 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:49:08 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:49:09 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:49:09 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:49:09 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:49:09 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:49:09 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:49:28 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:49:28 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:49:29 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:49:29 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:49:29 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:49:30 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:49:30 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:49:30 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:49:41 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-27 20:49:57 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2024-02-27 20:58:07 --> Column 'username' cannot be null
+ERROR - 2024-02-27 20:58:07 --> Table 'kasir.orangtua' doesn't exist
+ERROR - 2024-02-27 20:58:07 --> Table 'kasir.log' doesn't exist
+ERROR - 2024-02-27 20:58:07 --> Table 'kasir.orangtua' doesn't exist
+CRITICAL - 2024-02-27 20:58:07 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(357): App\Models\M_model->join2('orangtua', 'user', 'orangtua.user=u...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->orangtua()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-27 21:02:48 --> syntax error, unexpected '$data1' (T_VARIABLE)
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/tambah_pet...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/tambah_pet...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 21:03:11 --> Unknown column 'namapetugas' in 'field list'
+ERROR - 2024-02-27 21:03:11 --> Table 'kasir.orangtua' doesn't exist
+ERROR - 2024-02-27 21:03:11 --> Table 'kasir.log' doesn't exist
+ERROR - 2024-02-27 21:03:11 --> Table 'kasir.orangtua' doesn't exist
+CRITICAL - 2024-02-27 21:03:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(350): App\Models\M_model->join2('orangtua', 'user', 'orangtua.user=u...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->orangtua()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 21:06:32 --> Unknown column 'namapetugas' in 'field list'
+ERROR - 2024-02-27 21:06:32 --> Table 'kasir.orangtua' doesn't exist
+ERROR - 2024-02-27 21:06:32 --> Table 'kasir.log' doesn't exist
+ERROR - 2024-02-27 21:06:32 --> Table 'kasir.orangtua' doesn't exist
+CRITICAL - 2024-02-27 21:06:32 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(351): App\Models\M_model->join2('orangtua', 'user', 'orangtua.user=u...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->orangtua()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 21:08:33 --> Table 'kasir.orangtua' doesn't exist
+CRITICAL - 2024-02-27 21:08:33 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(351): App\Models\M_model->join2('orangtua', 'user', 'orangtua.user=u...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->orangtua()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 21:08:42 --> Unknown column 'namapetugas' in 'field list'
+ERROR - 2024-02-27 21:08:42 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 21:08:42 --> Table 'kasir.log' doesn't exist
+ERROR - 2024-02-27 21:09:58 --> Unknown column 'namapetugas' in 'field list'
+ERROR - 2024-02-27 21:09:58 --> Column 'user' cannot be null
+ERROR - 2024-02-27 21:09:58 --> Table 'kasir.log' doesn't exist
+ERROR - 2024-02-27 21:11:02 --> Unknown column 'namapetugas' in 'field list'
+ERROR - 2024-02-27 21:11:27 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 21:12:32 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 21:13:25 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 21:13:29 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 21:13:33 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 21:19:19 --> Unknown column 'level' in 'field list'
+CRITICAL - 2024-02-27 21:19:19 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Views\petugas.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('petugas', Array, true)
+#4 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(179): view('petugas', Array)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-27 21:19:20 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Views\petugas.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('petugas', Array, true)
+#4 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(179): view('petugas', Array)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-27 21:19:29 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Views\petugas.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('petugas', Array, true)
+#4 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(179): view('petugas', Array)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-27 21:20:15 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Views\petugas.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('petugas', Array, true)
+#4 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(179): view('petugas', Array)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-02-27 21:20:59 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 21:21:54 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 21:23:37 --> Unknown column 'level' in 'field list'
+CRITICAL - 2024-02-27 21:24:45 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/aksi_tamba...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/aksi_tamba...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 21:26:05 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 21:26:15 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 21:28:49 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 21:32:48 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 21:33:06 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 21:33:59 --> Table 'kasir.orangtua' doesn't exist
+CRITICAL - 2024-02-27 21:33:59 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(319): App\Models\M_model->join2('orangtua', 'user', 'orangtua.user=u...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->orangtua()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 21:34:23 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 21:36:29 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 21:37:21 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 21:47:07 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 22:17:46 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 22:18:42 --> Unknown column 'customer.user' in 'on clause'
+CRITICAL - 2024-02-27 22:18:42 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(251): App\Models\M_model->join2('customer', 'user', 'customer.user=u...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->customer()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:21:28 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 22:24:03 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 22:28:32 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 22:28:32 --> Unknown column 'petugas.user' in 'on clause'
+CRITICAL - 2024-02-27 22:28:32 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(123): App\Models\M_model->join2('petugas', 'user', 'petugas.user=us...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:28:48 --> Unknown column 'petugas.user' in 'on clause'
+CRITICAL - 2024-02-27 22:28:48 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(123): App\Models\M_model->join2('petugas', 'user', 'petugas.user=us...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:28:48 --> Unknown column 'petugas.user' in 'on clause'
+CRITICAL - 2024-02-27 22:28:48 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(123): App\Models\M_model->join2('petugas', 'user', 'petugas.user=us...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:28:58 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 22:28:58 --> Unknown column 'petugas.user' in 'on clause'
+CRITICAL - 2024-02-27 22:28:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(123): App\Models\M_model->join2('petugas', 'user', 'petugas.user=us...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:29:28 --> Unknown column 'petugas.user' in 'on clause'
+CRITICAL - 2024-02-27 22:29:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(123): App\Models\M_model->join2('petugas', 'user', 'petugas.user=us...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:29:31 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 22:29:31 --> Unknown column 'petugas.user' in 'on clause'
+CRITICAL - 2024-02-27 22:29:31 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(123): App\Models\M_model->join2('petugas', 'user', 'petugas.user=us...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:30:14 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 22:30:14 --> Unknown column 'petugas.user' in 'on clause'
+CRITICAL - 2024-02-27 22:30:14 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(123): App\Models\M_model->join2('petugas', 'user', 'petugas.user=us...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:30:31 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 22:30:31 --> Unknown column 'petugas.user' in 'on clause'
+CRITICAL - 2024-02-27 22:30:31 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(123): App\Models\M_model->join2('petugas', 'user', 'petugas.user=us...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:31:14 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 22:31:14 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2024-02-27 22:31:14 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(123): App\Models\M_model->getWhere('petugas', 'user', 'petugas.user=us...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:32:22 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2024-02-27 22:32:22 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(123): App\Models\M_model->getWhere('petugas', 'user', 'petugas.user=us...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:32:28 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2024-02-27 22:32:28 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(123): App\Models\M_model->getWhere('petugas', 'user', 'petugas.user=us...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:32:43 --> Unknown column 'petugas.user' in 'on clause'
+CRITICAL - 2024-02-27 22:32:43 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(123): App\Models\M_model->join2('petugas', 'user', 'petugas.user=us...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-27 22:33:07 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php on line 126
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(126): view('petugas', NULL)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:35:09 --> Unknown column 'petugas.user' in 'on clause'
+CRITICAL - 2024-02-27 22:35:09 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(123): App\Models\M_model->join2('petugas', 'user', 'petugas.user=us...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:35:09 --> Unknown column 'petugas.user' in 'on clause'
+CRITICAL - 2024-02-27 22:35:09 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(123): App\Models\M_model->join2('petugas', 'user', 'petugas.user=us...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:38:48 --> Unknown column 'petugas.user' in 'on clause'
+CRITICAL - 2024-02-27 22:38:48 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(123): App\Models\M_model->join2('petugas', 'user', 'petugas.user=us...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:40:03 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 22:43:34 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 22:43:34 --> Unknown column 'namapetugas' in 'where clause'
+CRITICAL - 2024-02-27 22:43:34 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(172): App\Models\M_model->getWhere2('user', Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->aksi_tambah_petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:44:24 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 22:44:24 --> Unknown column 'namapetugas' in 'where clause'
+CRITICAL - 2024-02-27 22:44:24 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(172): App\Models\M_model->getWhere2('user', Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->aksi_tambah_petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:44:31 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 22:44:31 --> Unknown column 'namapetugas' in 'where clause'
+CRITICAL - 2024-02-27 22:44:31 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(172): App\Models\M_model->getWhere2('user', Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->aksi_tambah_petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:45:53 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 22:45:53 --> Unknown column 'namapetugas' in 'where clause'
+CRITICAL - 2024-02-27 22:45:53 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(172): App\Models\M_model->getWhere2('user', Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->aksi_tambah_petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:50:25 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 22:50:25 --> Unknown column 'namapetugas' in 'where clause'
+CRITICAL - 2024-02-27 22:50:25 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(172): App\Models\M_model->getWhere2('user', Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->aksi_tambah_petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-27 22:50:34 --> Unknown column 'level' in 'field list'
+ERROR - 2024-02-27 22:50:34 --> Unknown column 'namapetugas' in 'where clause'
+CRITICAL - 2024-02-27 22:50:34 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(172): App\Models\M_model->getWhere2('user', Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->aksi_tambah_petugas()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

@@ -115,43 +115,153 @@ public function aksi_login()
     }
 }
 
-public function siswa()
+    public function petugas()
     {
         if(session()->get('id')>0) {
             $model=new M_model();
-            $on='siswa.user=user.id_user';
-            $diva['okta'] = $model->join2('siswa', 'user',$on);
+            $on='petugas.user=user.id_user';
+            $diva['okta'] = $model->join2('petugas', 'user',$on);
             $data['status']=$model->getWhere('user',array('id_user'=>session()->get('id')));
             echo view('header',$data);
             echo view('menu');
-            echo view('siswa',$diva);
+            echo view('petugas',$diva);
             echo view('footer');
         }else{
             return redirect()->to('/Home');
     }   
 }
+public function tambah_petugas()
+    {
+        if(session()->get('id')>0) {
+        $model=new m_model();
+        $data['status']=$model->getWhere('user',array('id_user'=>session()->get('id')));
+        echo view('header');
+        echo view('menu',$data);
+        $diva['okta'] = $model->tampil('level');
+        
 
-public function hapus_siswa($id)
+        return view('tambah_petugas', $diva);
+        echo view('footer');
+        }else{
+            return redirect()->to('/Home');
+        }
+    }
+
+    public function aksi_tambah_petugas()
 {
-    $model = new M_model(); // Change 'm_model' to 'M_model'
-    $where = array('user' => $id);
-    $where2 = array('id_user' => $id);
-    $model->hapus('siswa', $where);
-    $model->hapus('user', $where2);
-
-    $data2 = array(
-        'id_user' => session()->get('id'),
-        'aktiviti' =>"Menghapus siswa dengan Id ".$id."",
-        'waktu' => date('Y-m-d H:i:s')
-       
+    $namapetugas = $this->request->getPost('namapetugas');
+    $password = $this->request->getPost('password');
+    $level = $this->request->getPost('level');
+    $jk = $this->request->getPost('jk');
+    $alamat = $this->request->getPost('alamat');
+    $nomortelp = $this->request->getPost('nomortelp');
+    $data1 = array(
+        'namapetugas' => $namapetugas,
+        'password' => md5($password),
+        'level' => '2',
+        'jk' => $jk,
+        'alamat' => $alamat,
+        'nomortelp' => $nomortelp,
     );
-     $model->simpan('log', $data2);
-
-    return redirect()->to('/Home/siswa');
-
-
+    $darrel = new M_model();
+    $darrel->simpan('petugas',$data1);
+            return redirect()->to('/Home/petugas');
+        }
+    public function edit_petugas($id)
+    {
+        if(session()->get('level')==1){
+            $model=new M_model();
+            $where=array('id_petugas'=>$id);
+            $data['a']=$model->getWhere('petugas',$where);
+            echo view('header');
+            echo view('menu');
+            echo view('edit_petugas',$data);
+            echo view('footer');
+        }else{
+            return redirect()->to('/Home');
+        }
+    }
+    public function aksi_edit_petugas()
+    {
+        $namapetugas = $this->request->getPost('namapetugas');
+    $password = $this->request->getPost('password');
+    $level = $this->request->getPost('level');
+    $jk = $this->request->getPost('jk');
+    $alamat = $this->request->getPost('alamat');
+    $nomortelp = $this->request->getPost('nomortelp');
+    $data1 = array(
+        'namapetugas' => $namapetugas,
+        'password' => md5($password),
+        'level' => '2',
+        'jk' => $jk,
+        'alamat' => $alamat,
+        'nomortelp' => $nomortelp,
+    );
+    $darrel = new M_model();
+    $darrel->simpan('petugas',$data1);
+            return redirect()->to('/Home/petugas');
+    }
+public function hapus_petugas($id)
+    {
+        $model=new m_model();
+        $where=array('petugas'=>$id);
+        $where2=array('id_petugas'=>$id);
+        $model->hapus('petugas',$where);
+        $model->hapus('petugas',$where2);
+        return redirect()->to('/Home/petugas');
+    }
+public function customer()
+    {
+        if(session()->get('id')>0) {
+            $model=new M_model();
+            $on='customer.user=user.id_user';
+            $diva['okta'] = $model->join2('customer', 'user',$on);
+            $data['status']=$model->getWhere('user',array('id_user'=>session()->get('id')));
+            echo view('header',$data);
+            echo view('menu');
+            echo view('customer',$diva);
+            echo view('footer');
+        }else{
+            return redirect()->to('/Home');
+    }   
 }
+public function tambah_customer()
+    {
+        if(session()->get('id')>0) {
+        $model=new m_model();
+        $data['status']=$model->getWhere('user',array('id_user'=>session()->get('id')));
+        echo view('header');
+        echo view('menu',$data);
+        $diva['okta'] = $model->tampil('customer');
+        
 
+        return view('tambah_customer', $diva);
+        echo view('footer');
+        }else{
+            return redirect()->to('/Home');
+        }
+    }
+
+    public function aksi_tambah_customer()
+{
+    $nama = $this->request->getPost('nama');
+    $password = $this->request->getPost('password');
+    $level = $this->request->getPost('level');
+    $jk = $this->request->getPost('jk');
+    $alamat = $this->request->getPost('alamat');
+    $nomortelp = $this->request->getPost('nomortelp');
+    $data1 = array(
+        'namapetugas' => $namapetugas,
+        'password' => md5($password),
+        'level' => '3',
+        'jk' => $jk,
+        'alamat' => $alamat,
+        'nomortelp' => $nomortelp,
+    );
+    $darrel = new M_model();
+    $darrel->simpan('customer',$data1);
+            return redirect()->to('/Home/customer');
+        }
 public function tambah_siswa()
     {
         

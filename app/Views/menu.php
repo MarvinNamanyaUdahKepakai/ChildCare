@@ -45,43 +45,43 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="/Home/siswa" aria-expanded="false">
+              <a class="sidebar-link" href="/Home/Petugas" aria-expanded="false">
                 <span>
                   <i class="ti ti-alert-circle"></i>
                 </span>
-                <span class="hide-menu">Siswa</span>
+                <span class="hide-menu">Petugas</span>
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="/Home/orangtua" aria-expanded="false">
+              <a class="sidebar-link" href="/Home/customer" aria-expanded="false">
                 <span>
                   <i class="ti ti-alert-circle"></i>
                 </span>
-                <span class="hide-menu">Orang Tua</span>
+                <span class="hide-menu">Customer</span>
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="/Home/ta" aria-expanded="false">
+              <a class="sidebar-link" href="/Home/barang" aria-expanded="false">
                 <span>
                   <i class="ti ti-cards"></i>
                 </span>
-                <span class="hide-menu">Tahun Ajaran</span>
+                <span class="hide-menu">Barang</span>
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="/Home/bayar" aria-expanded="false">
+              <a class="sidebar-link" href="/Home/barangmasuk" aria-expanded="false">
                 <span>
                   <i class="ti ti-circle"></i>
                 </span>
-                <span class="hide-menu">Data Pembayaran</span>
+                <span class="hide-menu">Barang Masuk</span>
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="/Home/pembayaran" aria-expanded="false">
+              <a class="sidebar-link" href="/Home/barangkeluar" aria-expanded="false">
                 <span>
                   <i class="ti ti-circle"></i>
                 </span>
-                <span class="hide-menu">Pembayaran</span>
+                <span class="hide-menu">Barang Keluar</span>
               </a>
             </li>
                         <li class="nav-small-cap">

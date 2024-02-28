@@ -35,7 +35,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'database' => 'dbtk',
+        'database' => 'kasir',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
