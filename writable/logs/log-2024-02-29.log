@@ -1,0 +1,48 @@
+CRITICAL - 2024-02-29 00:51:50 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('menu_laporan/l_...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('menu_laporan/l_...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-29 00:52:19 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('menu_laporan/l_...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('menu_laporan/l_...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-29 01:06:56 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ConBarang/baran...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('ConBarang/baran...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-29 01:07:09 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ConBarang/baran...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('ConBarang/baran...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-29 01:07:16 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ConBarang/baran...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('ConBarang/baran...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-29 01:07:17 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ConBarang/baran...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('ConBarang/baran...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

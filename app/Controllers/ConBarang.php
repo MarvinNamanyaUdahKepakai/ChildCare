@@ -112,23 +112,15 @@ class ConBarang extends BaseController
     
     public function soft_delete_barang($id){
         if(session()->get('level')==1 || session()->get('level')==2) {
-            $model = new H_model();
-            $where = array('id_barang'=>$id);
-            
-            $data2 = array(
-                'delete_date' => date('Y-m-d H:i:s')
-            );
-    
-            $model->qedit('barang', $data2, $where);
-    
-            return redirect()->to ('/ConBarang/barang');
-        
-        }else{
-            return redirect()->to('/Home/log_out');
-        }
+            $model=new H_model();
+        $where=array('barang'=>$id);
+        $where2=array('id_barang'=>$id);
+        $model->hapus('barang',$where);
+        $model->hapus('barang',$where2);
+        return redirect()->to('/ConBarang/barang');
     }
 
-    public function restore_barang($id){
+    /*public function restore_barang($id){
         if(session()->get('level')==1) {
             $model = new H_model();
             $where = array('id_barang'=>$id);
@@ -143,6 +135,7 @@ class ConBarang extends BaseController
         }else{
             return redirect()->to('/Home/log_out');
         }
-    }
+    }*/
 
+}
 }

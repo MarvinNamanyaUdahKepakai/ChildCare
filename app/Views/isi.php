@@ -6,7 +6,7 @@
                 <div class="card h-100">
                     <div class="card-body">
                         <h5 class="card-title"><?= $data->nm_barang?></h5>
-                        <?php 
+<!--                         <?php 
                             if ($data->stok>0) {
                         ?>
 
@@ -20,7 +20,7 @@
 
                         <?php 
                             }
-                        ?>
+                        ?> -->
                         <h6 class="card-subtitle mt-1 mb-2 text-muted">
                             Rp<?= number_format(floor($data->harga), 0, ',', '.') ?>
                         </h6>

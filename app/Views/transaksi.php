@@ -1,4 +1,4 @@
-<!-- <div class="content-wrapper">
+<div class="content-wrapper">
     <div class="container-xxl flex-grow-1 container-p-y">
         <h4 class="fw-bold py-3 mb-2"><span>Daftar Transaksi</h4>
         <div class="card mb-3">
@@ -27,7 +27,7 @@
                                 <th style="padding-left: 0.5rem;">Tanggal</th>
                                 <th style="padding-left: 0.5rem;">No Transaksi</th>
                                 <th style="padding-left: 0.5rem;">Pelanggan</th>
-                                <th style="padding-left: 0.5rem;">Status</th>
+<!--                                 <th style="padding-left: 0.5rem;">Status</th> -->
                                 <th style="padding-left: 0.5rem;">Payment</th>
                                 <th style="padding-left: 0.5rem;">Nominal</th>
                                 <th style="padding-left: 0.5rem;">Bayar</th>
@@ -106,4 +106,4 @@
         document.getElementById('deleteLink').href = deleteLink;
         $('#deleteModal').modal('show');
     }
-    </script> -->
+    </script>

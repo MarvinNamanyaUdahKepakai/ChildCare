@@ -5,7 +5,7 @@
       <div class="w-100">
         <div class="card mb-4">
           <div class="card-body text-center">
-            <h1 class="mb-3">Selamat Datang <?php echo session()->get('username') ?></h1>
+            <h1 class="mb-3">Selamat datang, <?php echo session()->get('username') ?></h1>
            
           </div>
         </div>

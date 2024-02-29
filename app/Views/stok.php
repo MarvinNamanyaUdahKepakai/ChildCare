@@ -12,7 +12,7 @@
                         <thead>
                             <tr>
                                 <th style="padding-left: 0.5rem;">Tanggal</th>
-                                <th style="padding-left: 0.5rem;">Kode---Nama Barang</th>
+                                <th style="padding-left: 0.5rem;">Kode - Barang</th>
                                 <th style="padding-left: 0.5rem;">Quantity</th>
                                 <th style="padding-left: 0.5rem;">Action</th>
                             </tr>
@@ -21,7 +21,7 @@
                             <?php foreach($s as $data){?>
                             <tr>
                                 <td><?= $data->inputDate?></td>
-                                <td><?= $data->barang?>---<?= $data->nm_barang?></td>
+                                <td><?= $data->barang?> - <?= $data->nm_barang?></td>
                                 <td><?= $data->quantity?></td>
                                 <td>
 

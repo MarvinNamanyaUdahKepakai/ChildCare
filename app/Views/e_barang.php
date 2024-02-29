@@ -17,9 +17,9 @@
                         <input type="number" class="form-control" id="" placeholder="Stok" name="s" value="<?= $b->stok?>"/>
                     </div>
                     <div class="mb-3">
-                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
                         <a class="text-dark" href="<?= base_url('/ConBarang/barang')?>">
-                            <button type="button" class="btn btn-secondary">Back</button></a>
+                            <button type="button" class="btn btn-primary">Back</button></a>
                     </div>
                 </form>
             </div>

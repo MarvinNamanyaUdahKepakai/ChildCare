@@ -5,7 +5,7 @@
             <div class="card-header">
                 <a href="<?= base_url('/ConBarang/t_barang')?>">
                     <button class="btn icon icon-left btn-sm btn-primary mb-3">
-                        Tambah Barang</button>
+                        Tambah Jenis Barang</button>
                 </a>
                 <div class="table-responsive datatable-minimal">
                     <table class="table table-striped" id="table2">
@@ -35,8 +35,8 @@
 
                                     <a href="#"
                                         onclick="openDeleteModal('<?= base_url('/ConBarang/soft_delete_barang/'.$data->id_barang)?>')">
-                                        <button class="btn btn-sm btn-danger mr-1 mb-1 mt-1">Hapus
-                                            <i class="bx bx-trash"></i>
+                                        <button class="btn btn-sm btn-danger mr-1 mb-1 mt-1">
+                                            <i class="bx bx-trash"></i>Hapus
                                         </button>
                                     </a>
 

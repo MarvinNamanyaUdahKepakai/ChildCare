@@ -37,9 +37,9 @@
                             name="k"  value="<?= $t->kembali?>"/>
                     </div>
                     <div class="mb-3">
-                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
                         <a class="text-dark" href="<?= base_url('/ConTrans/transaksi')?>">
-                            <button type="button" class="btn btn-secondary">Back</button></a>
+                            <button type="button" class="btn btn-primary">Back</button></a>
                     </div>
                 </form>
             </div>

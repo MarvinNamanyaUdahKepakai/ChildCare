@@ -45,9 +45,9 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="/Home/mpg/" aria-expanded="false">
+              <a class="sidebar-link" href="/Home/mpg/isi/" aria-expanded="false">
                 <span>
-                  <i class="ti ti-alert-circle"></i>
+                  <i class="ti ti-aperture"></i>
                 </span>
                 <span class="hide-menu">Kasir Pengeluaran</span>
               </a>
@@ -84,18 +84,18 @@
                 <span class="hide-menu">Customer</span>
               </a>
             </li>
-                        <li class="nav-small-cap">
+<!--                         <li class="nav-small-cap">
               <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
               <span class="hide-menu">LAPORAN</span>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="/Home/l_brg" aria-expanded="false">
+            </li> -->
+<!--             <li class="sidebar-item">
+              <a class="sidebar-link" href="/menu_laporan/" aria-expanded="false">
                 <span>
                   <i class="ti ti-file-description"></i>
                 </span>
                 <span class="hide-menu">Laporan</span>
               </a>
-            </li>
+            </li> -->
             <li class="nav-small-cap">
               <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
               <span class="hide-menu">LOG-OUT</span>
@@ -166,7 +166,7 @@
             <li class="sidebar-item">
               <a class="sidebar-link" href="/Home/mpg/" aria-expanded="false">
                 <span>
-                  <i class="ti ti-alert-circle"></i>
+                  <i class="ti ti-aperture"></i>
                 </span>
                 <span class="hide-menu">Kasir Pengeluaran</span>
               </a>
@@ -203,7 +203,7 @@
                 <span class="hide-menu">Customer</span>
               </a>
             </li>
-                        <li class="nav-small-cap">
+<!--                         <li class="nav-small-cap">
               <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
               <span class="hide-menu">LAPORAN</span>
             </li>
@@ -214,7 +214,7 @@
                 </span>
                 <span class="hide-menu">Laporan</span>
               </a>
-            </li>
+            </li> -->
             <li class="nav-small-cap">
               <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
               <span class="hide-menu">LOG-OUT</span>
