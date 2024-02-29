@@ -1,42 +1,34 @@
 <div class="content-wrapper">
     <div class="container-xxl flex-grow-1 container-p-y">
-        <h4 class="fw-bold py-3 mb-2"><span>User Table</h4>
+        <h4 class="fw-bold py-3 mb-2"><span>Tambah Stok</h4>
         <div class="card">
             <div class="card-header">
-                <a href="<?= base_url('/ConUser/t_user')?>">
+                <a href="<?= base_url('/ConStok/t_stok')?>">
                     <button class="btn icon icon-left btn-sm btn-primary mb-3">
-                        Tambah User</button>
+                        Tambah Stok Barang</button>
                 </a>
                 <div class="table-responsive datatable-minimal">
                     <table class="table table-striped" id="table2">
                         <thead>
                             <tr>
-                                <th style="padding-left: 0.5rem;">ID</th>
-                                <th style="padding-left: 0.5rem;">Username</th>
-                                <th style="padding-left: 0.5rem;">Email</th>
-                                <th style="padding-left: 0.5rem;">Level</th>
+                                <th style="padding-left: 0.5rem;">Tanggal</th>
+                                <th style="padding-left: 0.5rem;">Kode---Nama Barang</th>
+                                <th style="padding-left: 0.5rem;">Quantity</th>
                                 <th style="padding-left: 0.5rem;">Action</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <?php foreach($us as $data){?>
+                            <?php foreach($s as $data){?>
                             <tr>
-                                <td>(<?= $data->id_user?>)</td>
-                                <td><?= $data->username?></td>
-                                <td><?= $data->email?></td>
-                                <td><?= $data->nm_level?></td>
+                                <td><?= $data->inputDate?></td>
+                                <td><?= $data->barang?>---<?= $data->nm_barang?></td>
+                                <td><?= $data->quantity?></td>
                                 <td>
 
-                                    <a href="<?= base_url('/ConUser/e_user/'.$data->id_user)?>">
-                                        <button class="btn btn-sm btn-warning text-white me-1 mb-1 mt-1">
-                                            <i class="bx bx-edit"></i>Edit
-                                        </button>
-                                    </a>
-
                                     <a href="#"
-                                        onclick="openDeleteModal('<?= base_url('/ConUser/soft_delete_user/'.$data->id_user)?>')">
-                                        <button class="btn btn-sm btn-danger mr-1 mb-1 mt-1">
-                                            <i class="bx bx-trash"></i>Hapus
+                                        onclick="openDeleteModal('<?= base_url('/ConStok/soft_delete_stok/'.$data->id)?>')">
+                                        <button class="btn btn-sm btn-danger mr-1 mb-1 mt-1">Hapus
+                                            <i class="bx bx-trash"></i>
                                         </button>
                                     </a>
 

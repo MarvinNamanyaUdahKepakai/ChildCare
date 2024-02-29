@@ -1,12 +1,8 @@
 <div class="content-wrapper">
     <div class="container-xxl flex-grow-1 container-p-y">
-        <h4 class="fw-bold py-3 mb-2"><span>User Table</h4>
+        <h4 class="fw-bold py-3 mb-2"><span>User Bin</h4>
         <div class="card">
             <div class="card-header">
-                <a href="<?= base_url('/ConUser/t_user')?>">
-                    <button class="btn icon icon-left btn-sm btn-primary mb-3">
-                        Tambah User</button>
-                </a>
                 <div class="table-responsive datatable-minimal">
                     <table class="table table-striped" id="table2">
                         <thead>
@@ -27,16 +23,18 @@
                                 <td><?= $data->nm_level?></td>
                                 <td>
 
-                                    <a href="<?= base_url('/ConUser/e_user/'.$data->id_user)?>">
-                                        <button class="btn btn-sm btn-warning text-white me-1 mb-1 mt-1">
-                                            <i class="bx bx-edit"></i>Edit
+
+                                    <a href="#"
+                                        onclick="openRestoreModal('<?= base_url('/ConUser/restore_user/'.$data->id_user)?>')">
+                                        <button class="btn btn-sm btn-success mr-1 mb-1 mt-1">
+                                            <i class="bx bx-reset"></i>
                                         </button>
                                     </a>
 
                                     <a href="#"
-                                        onclick="openDeleteModal('<?= base_url('/ConUser/soft_delete_user/'.$data->id_user)?>')">
+                                        onclick="openDeleteModal('<?= base_url('/ConUser/delete_user/'.$data->id_user)?>')">
                                         <button class="btn btn-sm btn-danger mr-1 mb-1 mt-1">
-                                            <i class="bx bx-trash"></i>Hapus
+                                            <i class="bx bx-trash"></i>
                                         </button>
                                     </a>
 
@@ -72,11 +70,39 @@
         </div>
     </div>
 
+    <div class="modal fade" id="restoreModal" tabindex="-1" role="dialog" aria-labelledby="restoreModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="restoreModalLabel">Restore Confirmation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Are you sure you want to restore this?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <a id="restoreLink" href="#">
+                        <button type="button" class="btn btn-success">Restore</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
     <script>
     function openDeleteModal(deleteLink) {
         document.getElementById('deleteLink').href = deleteLink;
         $('#deleteModal').modal('show');
+    }
+    </script>
+
+    <script>
+    function openRestoreModal(restoreLink) {
+        document.getElementById('restoreLink').href = restoreLink;
+        $('#restoreModal').modal('show');
     }
     </script>

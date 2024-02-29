@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Aplikasi Kasir</title>
+  <title>Aplikasi Child Care</title>
   <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
   <link rel="stylesheet" href="../assets/css/styles.min.css" />
 </head>
@@ -26,21 +26,13 @@
                 <p class="text-center">Your Social Campaigns</p>
                  <form method="post" action="<?= base_url('home/aksi_login') ?>">
                     <div class="form-group">
-                      <th>Username</th>
-                      <input type="text" name="username" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp"
-                        placeholder="Enter Username">
+                      <th>Username : </th>
+                      <input type="text" value="" placeholder="Username" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" name="username"/>
                     </div>
                     <div class="form-group">
-                      <th>Password</th>
-                      <input type="password" name="password" class="form-control" id="exampleInputPassword" placeholder="Password">
+                      <th>Password : </th>
+                      <input type="password" name="pswd" class="form-control" id="exampleInputPassword" placeholder="Password">
                     </div>
-                   <div class="form-group">
-                    <th>Captcha</th>
-                <!-- <label for="captcha">What is <?php echo $num1 ?> + <?php echo $num2 ?>?</label> -->
-                <input type="hidden" name="num1" value="<?php echo $num1 ?>">
-                <input type="hidden" name="num2" value="<?php echo $num2 ?>">
-                 <input for="captcha" type="text" class="form-control" id="captcha" name="captcha_answer" placeholder="What is <?php echo $num1 ?> + <?php echo $num2 ?>?">
-                </div>
                     <div class="form-group">
 
                       <button type="submit" class="btn btn-primary btn-block">Login</button>

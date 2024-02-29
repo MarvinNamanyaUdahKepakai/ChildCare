@@ -1,40 +1,67 @@
-<div class="content-wrapper">
+<!-- <div class="content-wrapper">
     <div class="container-xxl flex-grow-1 container-p-y">
-        <h4 class="fw-bold py-3 mb-2"><span>User Table</h4>
+        <h4 class="fw-bold py-3 mb-2"><span>Daftar Transaksi</h4>
+        <div class="card mb-3">
+            <div class="card-header">
+                <form action="<?= base_url('ConTrans/filter_trans')?>" method="post" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="" class="form-label">Date</label>
+                        <input type="date" class="form-control" id="" placeholder="" name="tgl" />
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-sm btn-primary">Cari Transaksi</button>
+                    </div>
+                </form>
+            </div>
+        </div>
         <div class="card">
             <div class="card-header">
-                <a href="<?= base_url('/ConUser/t_user')?>">
+                <!-- <a href="<?= base_url('/ConTrans/t_user')?>">
                     <button class="btn icon icon-left btn-sm btn-primary mb-3">
-                        Tambah User</button>
+                        Add Data</button> -->
                 </a>
                 <div class="table-responsive datatable-minimal">
                     <table class="table table-striped" id="table2">
                         <thead>
                             <tr>
-                                <th style="padding-left: 0.5rem;">ID</th>
-                                <th style="padding-left: 0.5rem;">Username</th>
-                                <th style="padding-left: 0.5rem;">Email</th>
-                                <th style="padding-left: 0.5rem;">Level</th>
+                                <th style="padding-left: 0.5rem;">Tanggal</th>
+                                <th style="padding-left: 0.5rem;">No Transaksi</th>
+                                <th style="padding-left: 0.5rem;">Pelanggan</th>
+                                <th style="padding-left: 0.5rem;">Status</th>
+                                <th style="padding-left: 0.5rem;">Payment</th>
+                                <th style="padding-left: 0.5rem;">Nominal</th>
+                                <th style="padding-left: 0.5rem;">Bayar</th>
+                                <th style="padding-left: 0.5rem;">Kembali</th>
                                 <th style="padding-left: 0.5rem;">Action</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <?php foreach($us as $data){?>
+                            <?php foreach($t as $data){?>
                             <tr>
-                                <td>(<?= $data->id_user?>)</td>
-                                <td><?= $data->username?></td>
-                                <td><?= $data->email?></td>
-                                <td><?= $data->nm_level?></td>
+                                <td><?= $data->create_date1?></td>
+                                <td><?= $data->ntr?></td>
+                                <td><?= $data->nm_pelanggan?></td>
+                                <td><?= $data->status?></td>
+                                <td><?= $data->payment?></td>
+                                <td>Rp<?= number_format($data->nominal, 0, ',', '.') ?></td>
+                                <td>Rp<?= number_format($data->bayar, 0, ',', '.') ?></td>
+                                <td>Rp<?= number_format($data->kembali, 0, ',', '.') ?></td>
                                 <td>
 
-                                    <a href="<?= base_url('/ConUser/e_user/'.$data->id_user)?>">
+                                    <a href="<?= base_url('/ConTrans/det_transaksi/'.$data->ntr)?>">
+                                        <button class="btn btn-sm btn-info text-white me-1 mb-1 mt-1">
+                                            <i class="bx bx-detail"></i>Detail
+                                        </button>
+                                    </a>
+
+                                    <a href="<?= base_url('/ConTrans/e_trans/'.$data->id_ntr)?>">
                                         <button class="btn btn-sm btn-warning text-white me-1 mb-1 mt-1">
                                             <i class="bx bx-edit"></i>Edit
                                         </button>
                                     </a>
 
                                     <a href="#"
-                                        onclick="openDeleteModal('<?= base_url('/ConUser/soft_delete_user/'.$data->id_user)?>')">
+                                        onclick="openDeleteModal('<?= base_url('/ConTrans/soft_delete_trans/'.$data->id_ntr)?>')">
                                         <button class="btn btn-sm btn-danger mr-1 mb-1 mt-1">
                                             <i class="bx bx-trash"></i>Hapus
                                         </button>
@@ -79,4 +106,4 @@
         document.getElementById('deleteLink').href = deleteLink;
         $('#deleteModal').modal('show');
     }
-    </script>
+    </script> -->

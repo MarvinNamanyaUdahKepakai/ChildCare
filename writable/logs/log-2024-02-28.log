@@ -398,3 +398,269 @@ ERROR - 2024-02-28 02:00:00 --> Unknown column 'level' in 'field list'
 ERROR - 2024-02-28 02:03:38 --> Unknown column 'level' in 'field list'
 ERROR - 2024-02-28 02:13:38 --> Unknown column 'level' in 'field list'
 ERROR - 2024-02-28 02:29:01 --> Unknown column 'level' in 'field list'
+CRITICAL - 2024-02-28 19:11:06 --> Class 'App\Controllers\M_model' not found
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 19:12:05 --> Class 'App\Controllers\M_model' not found
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 19:12:35 --> Class 'App\Controllers\M_model' not found
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 19:12:42 --> Class 'App\Controllers\M_model' not found
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 19:17:03 --> Class 'App\Models\H_model' not found
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 19:17:31 --> Class 'App\Models\H_model' not found
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 19:20:11 --> Class 'App\Models\H_model' not found
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 19:20:34 --> Class 'App\Models\H_model' not found
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 19:21:02 --> Class 'App\Models\H_model' not found
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 19:54:19 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Views\footer2.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('footer2', Array, true)
+#4 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(66): view('footer2', Array)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->mpg()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-28 19:54:23 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Views\footer2.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('footer2', Array, true)
+#4 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(66): view('footer2', Array)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->mpg()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-28 19:57:39 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Views\footer2.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('footer2', Array, true)
+#4 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(66): view('footer2', Array)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->mpg()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-28 20:00:17 --> Call to a member function getUserSetting() on null
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#3 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(64): view('menu')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->mpg()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-28 20:00:23 --> Call to a member function getUserSetting() on null
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#3 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(64): view('menu')
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->mpg()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-28 20:04:30 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Views\footer2.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('footer2', Array, true)
+#4 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(66): view('footer2', Array)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->mpg()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-28 20:16:47 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Views\footer2.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('footer2', Array, true)
+#4 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(66): view('footer2', Array)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->mpg()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-28 20:16:58 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Views\footer2.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('footer2', Array, true)
+#4 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(66): view('footer2', Array)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->mpg()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-28 20:46:00 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Nota/transaksi')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Nota/transaksi')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-28 20:46:23 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Nota/transaksi')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Nota/transaksi')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-28 20:48:01 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Views\kasirnota.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('kasirnota', Array, true)
+#4 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Nota.php(18): view('kasirnota', Array)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Nota->transaksi()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nota))
+#7 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-28 20:48:04 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Views\kasirnota.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('kasirnota', Array, true)
+#4 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Nota.php(18): view('kasirnota', Array)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Nota->transaksi()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nota))
+#7 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-28 20:48:46 --> Invalid file: kasirnota.php
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasirnota.php')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('kasirnota', Array, true)
+#2 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(65): view('kasirnota', Array)
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->mpg()
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-28 20:48:47 --> Invalid file: kasirnota.php
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasirnota.php')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('kasirnota', Array, true)
+#2 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(65): view('kasirnota', Array)
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->mpg()
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-28 20:48:48 --> Invalid file: kasirnota.php
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasirnota.php')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('kasirnota', Array, true)
+#2 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(65): view('kasirnota', Array)
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->mpg()
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-28 20:48:49 --> Invalid file: kasirnota.php
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasirnota.php')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('kasirnota', Array, true)
+#2 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(65): view('kasirnota', Array)
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->mpg()
+#4 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-28 20:52:08 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\ukk_BongMarvin\app\Views\footer2.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\Common.php(1089): CodeIgniter\View\View->render('footer2', Array, true)
+#4 C:\xampp\htdocs\ukk_BongMarvin\app\Controllers\Home.php(66): view('footer2', Array)
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(832): App\Controllers\Home->mpg()
+#6 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-28 21:12:30 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ConBarang/baran...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('ConBarang/baran...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-28 21:12:42 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\ukk_BongMarvin\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ConBarang/baran...')
+#1 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('ConBarang/baran...')
+#2 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ukk_BongMarvin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_BongMarvin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_BongMarvin\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 21:39:14 --> Duplicate entry 'usman' for key 'n_lengkap'
