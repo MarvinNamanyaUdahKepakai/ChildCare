@@ -106,4 +106,8 @@
         document.getElementById('deleteLink').href = deleteLink;
         $('#deleteModal').modal('show');
     }
+<<<<<<< HEAD
     </script>
+=======
+    </script>
+>>>>>>> d5c0d9da576fc11edf8f41b8ff7be79b7be722a3
